@@ -1,0 +1,589 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#"
+     xml:base="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleaned -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleaned">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleans"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleans -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleans">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Cleaner"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#does -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#does">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#done"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Worker"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#done -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#done"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#givesTask -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#givesTask">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#takeTask"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Foreman"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#SeniorForeman"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Foreman"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Worker"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#locate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#locate">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#located"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#located -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#located">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#managed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#managed">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#manages"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#manages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#manages">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Director"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Cleaner"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Secretary"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#SeniorForeman"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#takeTask -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#takeTask">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#area -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#area">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#complexity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#complexity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#importance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#importance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#numberOFwindows -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#numberOFwindows">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#numberOfpeople -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#numberOfpeople">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#salary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#salary">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#sex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#sex">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Cleaner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Cleaner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Foreman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Foreman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Secretary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Secretary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#SeniorForeman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#SeniorForeman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work"/>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Worker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Worker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Personnel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Software -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Software">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work"/>
+        <complexity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</complexity>
+        <importance rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</importance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleaner1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleaner1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Cleaner"/>
+        <cleans rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForDirector"/>
+        <cleans rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForForeman"/>
+        <cleans rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForSecretary"/>
+        <cleans rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForSeniorForeman"/>
+        <cleans rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForWorker"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masha</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleaner2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleaner2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Cleaner"/>
+        <cleans rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForForeman"/>
+        <cleans rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForWorker"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anton</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#director1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#director1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Director"/>
+        <locate rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForDirector"/>
+        <manages rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleaner1"/>
+        <manages rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#cleaner2"/>
+        <manages rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#secretary1"/>
+        <manages rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#seniorForeman1"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alex</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#foreman1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#foreman1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Foreman"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#reports"/>
+        <givesTask rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker1"/>
+        <givesTask rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker2"/>
+        <locate rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForForeman"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vasya</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">95.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#foreman2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#foreman2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Foreman"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#reports"/>
+        <givesTask rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker3"/>
+        <givesTask rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker4"/>
+        <locate rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForForeman"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alena</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">95.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#models -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#models">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work"/>
+        <complexity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</complexity>
+        <importance rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</importance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#patents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#patents">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work"/>
+        <complexity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</complexity>
+        <importance rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</importance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#programs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#programs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work"/>
+        <complexity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</complexity>
+        <importance rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</importance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#reports -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#reports">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Work"/>
+        <complexity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</complexity>
+        <importance rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</importance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForDirector -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForDirector">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+        <area rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.0</area>
+        <numberOFwindows rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</numberOFwindows>
+        <numberOfpeople rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</numberOfpeople>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForForeman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForForeman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+        <area rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.0</area>
+        <numberOFwindows rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOFwindows>
+        <numberOfpeople rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOfpeople>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForSecretary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForSecretary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+        <area rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.0</area>
+        <numberOFwindows rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOFwindows>
+        <numberOfpeople rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</numberOfpeople>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForSeniorForeman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForSeniorForeman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+        <area rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</area>
+        <numberOFwindows rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</numberOFwindows>
+        <numberOfpeople rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</numberOfpeople>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForWorker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForWorker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Workplace"/>
+        <area rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</area>
+        <numberOFwindows rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</numberOFwindows>
+        <numberOfpeople rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</numberOfpeople>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#secretary1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#secretary1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Secretary"/>
+        <locate rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForSecretary"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sveta</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">52.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#seniorForeman1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#seniorForeman1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#SeniorForeman"/>
+        <givesTask rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#foreman1"/>
+        <givesTask rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#foreman2"/>
+        <locate rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForSeniorForeman"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Max</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">150.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Worker"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Software"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#programs"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#reports"/>
+        <locate rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForWorker"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denis</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Worker"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Software"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#models"/>
+        <locate rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForWorker"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrew</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Worker"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#models"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#programs"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#reports"/>
+        <locate rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForWorker"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alina</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</sex>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#worker4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Worker"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#Software"/>
+        <does rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#programs"/>
+        <locate rdf:resource="http://www.semanticweb.org/maksimov/ontologies/2020/2/untitled-ontology-16#roomForWorker"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</age>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vasilisa</name>
+        <salary rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.0</salary>
+        <sex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</sex>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

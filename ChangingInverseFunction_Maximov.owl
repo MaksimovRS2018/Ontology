@@ -1,0 +1,808 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/maksimov/Desktop/Ontology/ontologyFirst"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/maksimov/Desktop/Ontology/ontologyFirst">
+    <Prefix name="" IRI="http://www.semanticweb.org/maksimov/Desktop/Ontology/ontologyFirst"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#colored"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#drinked"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lived"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#owned"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#smoked"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drinks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Smokes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Blue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Chesterfields"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Coffee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Dog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#ElephantColor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#England"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Fox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Green"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#GreenTea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Horse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Juise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Kools"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#LuckyStrike"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Milk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Norway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#OldGold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Parliaments"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Red"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Snail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Ukraine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Yellow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Zebra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num5"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Dog"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Fox"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Horse"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Snail"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Zebra"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Chesterfields"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Kools"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#LuckyStrike"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#OldGold"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Parliaments"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Blue"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#ElephantColor"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Green"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Red"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Yellow"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Coffee"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#GreenTea"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Juise"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Milk"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Water"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num1"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num2"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num3"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num4"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num5"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#England"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Japan"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Norway"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Spain"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Ukraine"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#owned"/>
+            <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smoked"/>
+            <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#colored"/>
+            <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#drinked"/>
+            <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#lived"/>
+                <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+                <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drinks"/>
+                <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+                <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+                <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Smokes"/>
+                <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Blue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Chesterfields"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smoked"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+                <ObjectUnionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="#lived"/>
+                            <ObjectHasValue>
+                                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+                                <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Fox"/>
+                            </ObjectHasValue>
+                        </ObjectSomeValuesFrom>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="#lived"/>
+                            <ObjectHasValue>
+                                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+                                <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Fox"/>
+                            </ObjectHasValue>
+                        </ObjectSomeValuesFrom>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Chesterfields"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Coffee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#drinked"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+                    <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Green"/>
+                </ObjectHasValue>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Coffee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Dog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#ElephantColor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#England"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+                <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Red"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#England"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Fox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Green"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#colored"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+                    <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#ElephantColor"/>
+                </ObjectHasValue>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Green"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#GreenTea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Horse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Juise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Kools"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smoked"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+                <ObjectUnionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="#lived"/>
+                            <ObjectHasValue>
+                                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+                                <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Horse"/>
+                            </ObjectHasValue>
+                        </ObjectSomeValuesFrom>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="#lived"/>
+                            <ObjectHasValue>
+                                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+                                <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Horse"/>
+                            </ObjectHasValue>
+                        </ObjectSomeValuesFrom>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Kools"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smoked"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+                    <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Yellow"/>
+                </ObjectHasValue>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Kools"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#LuckyStrike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smoked"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drinks"/>
+                <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Juise"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#LuckyStrike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#drinked"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+                <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num3"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Milk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Norway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+                    <ObjectHasValue>
+                        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+                        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Blue"/>
+                    </ObjectHasValue>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+                    <ObjectHasValue>
+                        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+                        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Blue"/>
+                    </ObjectHasValue>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Norway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#OldGold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#smoked"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+                <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Snail"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#OldGold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Parliaments"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Red"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Snail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Dog"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Ukraine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drinks"/>
+            <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#GreenTea"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Ukraine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Water"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Yellow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Zebra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+            <Class abbreviatedIRI="owl:Nothing"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+            <Class abbreviatedIRI="owl:Nothing"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num5"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Blue"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Chesterfields"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Coffee"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Dog"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#ElephantColor"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#England"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Fox"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Green"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#GreenTea"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Horse"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Japan"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Juise"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Kools"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#LuckyStrike"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Milk"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Norway"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#OldGold"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Parliaments"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Red"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Snail"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Spain"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Ukraine"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Water"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Yellow"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Zebra"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num1"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num2"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num3"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num4"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num5"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Smokes"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Japan"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Parliaments"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#Norway"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num1"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num2"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num3"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num4"/>
+        <NamedIndividual IRI="александрина/ontologies/2020/1/untitled-ontology-3#num5"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#colored"/>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#drinked"/>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drinks"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#lived"/>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#owned"/>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#smoked"/>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Smokes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#colored"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#drinked"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#lived"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#smoked"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drinks"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Smokes"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#colored"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#drinked"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#lived"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#smoked"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drinks"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Smokes"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drinks"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Smokes"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Nationalities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drinks"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Drink"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Has_color"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Colors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Lives_in"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Owns"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Animals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#Smokes"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#Cigarettes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isLeft_to"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="александрина/ontologies/2020/1/untitled-ontology-3#isRight_to"/>
+        <Class IRI="александрина/ontologies/2020/1/untitled-ontology-3#House"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
